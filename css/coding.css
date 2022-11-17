@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body,.container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.cd-center{
+    margin: 0 auto;
+}
+/* --------------------------------------------- */
+/* Uyghur Fonrs */
+/* --------------------------------------------- */
+@font-face {
+    font-family: 'ALKATIP-Basma-Tom';
+    src: url('/font/abasma.woff') format(woff);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ALKATIP-Kufi';
+    src: url('/font/ALKATIP-Kufi.woff') format(woff);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Alpbay-Kesme-Bold';
+    src: url('/font/AlpbayKesme-Bold.woff') format(woff);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LamaSans';
+    src: url('/font/LamaSans-Medium.woff') format(woff);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nurjanbay-Alma';
+    src: url('/font/Nurjanbay-Alma-Agma.woff') format(woff);
+    font-style: normal;
+}
+/* Uyghur fonts index */
+.Uyghur-font-1{
+    font-family:'ALKATIP-Basma-Tom';
+}
+.Uyghur-font-2{
+    font-family:'ALKATIP-Kufi';
+}
+.Uyghur-font-3{
+    font-family:'Alpbay-Kesme-Bold';
+}
+.Uyghur-font-4{
+    font-family:'LamaSans';
+}
+.Uyghur-font-5{
+    font-family:'Nurjanbay-Alma';
+}
+
+.logo-color{
+    color: rgb(255, 111, 16);
+}
